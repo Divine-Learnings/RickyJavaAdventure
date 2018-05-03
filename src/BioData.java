@@ -46,6 +46,11 @@ public class BioData {
         if(pChoice.equals("Raj")) {
             System.out.println("What do you want to know about Raj?");
             String aChoice = sc.nextLine();
+            switch (aChoice){
+                case "Age":
+                    System.out.println(Raj.Age + " years");
+                    break;
+            }
         }
     }
 
