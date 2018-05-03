@@ -5,6 +5,7 @@ public class Phones {
     double price;
     public static void main(String args[]){
         phone();
+
     }
     public static void phone(){
         Phones iPhoneX = new Phones();
@@ -14,7 +15,8 @@ public class Phones {
         Phones S8P = new Phones();
         Phones OP5TP = new Phones();
         //if you want, you can expand upon this...
-        Scanner sc = new Scanner(System.in);
+         Scanner sc = new Scanner(System.in);
+
         System.out.println("Which phone do you want to know about?");
         String phoneChoice = sc.nextLine();
         if(phoneChoice.equals("iPhoneX")) {
