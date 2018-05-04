@@ -5,32 +5,32 @@ public class BioData {
     int  Age;
     String Gender;
     String ECo;
-    int Hf;
-    int Hi;
-    String PU;
-    String BT;
-    String FCo;
-    String  FC;
-    String CMU;
+    int Hieghtfeet;
+    int Hieghtin;
+    String Phoneusing;
+    String Bloodtype;
+    String Favoritecolor;
+    String Favoritecar;
+    String Computer;
     String p;
-    String fn;
+    String Fullname;
     static String n = System.getProperty("line.separator");
     public static void main(String args[]){
         BioData();
     }
     public static void BioData(){
         BioData Raj = new BioData();
-            Raj.fn = "Gnanasusairaj Jeusudason";
+            Raj.Fullname = "Gnanasusairaj Jeusudason";
             Raj.Age = 48;
             Raj.Gender = "MALE";
             Raj.ECo = "black";
-            Raj.Hf = 5;
-            Raj.Hi = 11;
-            Raj.PU = "iPhoneX";
-            Raj.BT = "o+";
-            Raj.FCo = "Black";
-            Raj.FC = "Indigo";
-            Raj.CMU = "Dell Pression,HP spectre";
+            Raj.Hieghtfeet = 5;
+            Raj.Hieghtin = 11;
+            Raj.Phoneusing = "iPhoneX";
+            Raj.Bloodtype = "o+";
+            Raj.Favoritecolor = "Black";
+            Raj.Favoritecar = "Indigo";
+            Raj.Computer = "Dell Pression,HP spectre";
             Raj.p = "father";
         BioData Jessie = new BioData();
         BioData Derrick = new BioData();
@@ -48,8 +48,45 @@ public class BioData {
             String aChoice = sc.nextLine();
             switch (aChoice){
                 case "Age":
-                    System.out.println(Raj.Age + " years");
+                    System.out.println("Raj is "+Raj.Age + " years");
                     break;
+                case "Full name":
+                    System.out.println("raj's full name is "+Raj.Fullname);
+                    break;
+                case"Gender":
+                    System.out.println("Raj is a"+Raj.Gender);
+                    break;
+                case"Eye Color":
+                    System.out.println("Raj's "+Raj.ECo);
+                    break;
+                case"Blood type":
+                    System.out.println("Raj's blood type is"+Raj.Bloodtype);
+                    break;
+                case"Gender":
+                    System.out.println("Raj is a"+Raj.Gender);
+                    break;
+                case"Gender":
+                    System.out.println("Raj is a"+Raj.Gender);
+                    break;
+                case"Gender":
+                    System.out.println("Raj is a"+Raj.Gender);
+                    break;
+                case"Gender":
+                    System.out.println("Raj is a"+Raj.Gender);
+                    break;
+                case"Gender":
+                    System.out.println("Raj is a"+Raj.Gender);
+                    break;
+                case"Gender":
+                    System.out.println("Raj is a"+Raj.Gender);
+                    break;
+                case"Gender":
+                    System.out.println("Raj is a"+Raj.Gender);
+                    break;
+
+
+
+
             }
         }
     }
